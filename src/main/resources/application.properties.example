@@ -1,0 +1,22 @@
+spring.application.name=weatherAPI
+spring.data.redis.host=localhost
+spring.data.redis.port=6379
+
+#Visual Crossing API
+# Obtén tu API key en: https://www.visualcrossing.com/
+weather.api.key=YOUR_API_KEY_HERE
+weather.api.base-url=https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline
+#Tiempos de espera para la conexión y lectura de la API de Visual Crossing
+weather.api.connect-timeout=5000
+weather.api.read-timeout=5000
+
+#Logging
+logging.level.root=INFO
+logging.level.com.jalveo.weatherAPI=DEBUG
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} - %msg%n
+
+#Swagger
+springdoc.swagger-ui.enabled=true
+springdoc.api-docs.enabled=true
+springdoc.swagger-ui.path=/swagger-ui.html
+
