@@ -14,7 +14,7 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -51,4 +51,36 @@ logs/
 *.swo
 *~
 .DS_Store
+
+### Archivos de caché compilados ###
+target/classes/application.properties
+target/classes/application-*.properties
+target/classes/application.yml
+target/classes/application-*.yml
+
+### Sistemas de control de versiones ###
+.hg/
+
+### Compilados y generados ###
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+### Maven ###
+dependency-reduced-pom.xml
+
+### Archivos macOS ###
+.AppleDouble
+.LSOverride
+
+### Archivos Windows ###
+Thumbs.db
+ehthumbs.db
+
+### Logs de ejecución ###
+spring.log
+*.out
 
